@@ -26,7 +26,7 @@ func init() {
 	flag.StringVarP(&query, "query", "q", "Hello!", "Just a query")
 	flag.StringVarP(&model, "model", "m", "claude-3-haiku-20240307",
 		"Model to use: [gpt-4o-mini, mistralai/Mixtral-8x7B-Instruct-v0.1, meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo, claude-3-haiku-20240307]")
-	flag.BoolVarP(&mdRender, "markdown", "md", false, "Render output as markdown")
+	flag.BoolVarP(&mdRender, "render", "r", false, "Render output as markdown")
 	flag.BoolVarP(&onlyCode, "code", "c", false, "Try provide only code in non interactive mode")
 }
 
